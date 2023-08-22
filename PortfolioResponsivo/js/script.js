@@ -53,9 +53,9 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Desenvolvedor Front-End', 'Designer Gráfico', 'UI-UX Design'],
-    typeSpeed: 100,
-    backSpeed: 100,
+    strings: ['Desenvolvedor Front-End', 'Designer Gráfico', 'UX-UI Design'],
+    typeSpeed: 10,
+    backSpeed: 10,
     backDelay: 1000,
     loop: true
 });
