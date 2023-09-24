@@ -55,7 +55,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 const typed = new Typed('.multiple-text', {
     strings: ['Desenvolvedor Front-End', 'Designer Gráfico', 'UX-UI Design'],
     typeSpeed: 10,
-    backSpeed: 10,
+    backSpeed: 50,
     backDelay: 1000,
     loop: true
 });
