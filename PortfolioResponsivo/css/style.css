@@ -23,12 +23,14 @@
     --text-color: #000000;
     --main-color: #878A8F;
 }
-#nome{
+
+#nome {
     font-family: josefin Slab;
     size: 14px;
     letter-spacing: 5px;
-    color:#878a8f;
+    color: #878a8f;
 }
+
 *::selection {
     background: var(--main-color);
     color: var(--bg-color);
@@ -79,20 +81,20 @@ section {
     flex-wrap: wrap;
 }
 
-.navbar ul li{
+.navbar ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     color: #000000;
     text-decoration: none;
     font-size: 1.7rem;
     position: relative;
 }
 
-.navbar ul li a::after{
+.navbar ul li a::after {
     content: '';
     width: 0;
     height: 3px;
@@ -103,31 +105,15 @@ section {
     transition: 0.5s;
 }
 
-.navbar ul li a:hover::after{
+.navbar ul li a:hover::after {
     width: 100%;
 }
+
 .navbar a:hover,
 .navbar a.active {
     color: #878a8f;
 }
 
-/*
-.navbar a {
-    font-size: 1.7rem;
-    color: var(--text-color);
-    margin-left: 4rem;
-    transition: .3s;
-    content: '';
-    width: 100%;
-    height: 3px;
-    background: #ff004f;
-    position: relative;
-}
-
-.navbar a:hover,
-.navbar a.active {
-    color: var(--main-color);
-}*/
 
 #menu-icon {
     font-size: 3.6rem;
@@ -252,8 +238,8 @@ span {
     margin: 2rem 0 3rem;
 }
 
-#mais{
-    display:none;
+#mais {
+    display: none;
 }
 
 .services {
@@ -281,7 +267,7 @@ span {
     text-align: center;
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
-    box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.37);
 }
 
 .services-container .services-box:hover {
@@ -566,6 +552,10 @@ span {
     .footer p {
         text-align: center;
         margin-top: 2rem;
+    }
+
+    .portfolio-box .portfolio-layer {
+        transform: translateY(0);
     }
 }
 

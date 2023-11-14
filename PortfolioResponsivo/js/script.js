@@ -50,11 +50,10 @@ ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact 
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
-
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Desenvolvedor Front-End', 'Designer Gráfico', 'UX-UI Design'],
-    typeSpeed: 10,
+    strings: ['Desenvolvedor Front-End', 'Designer Gráfico'],
+    typeSpeed: 100,
     backSpeed: 50,
     backDelay: 1000,
     loop: true
