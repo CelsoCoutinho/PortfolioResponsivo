@@ -1,4 +1,4 @@
-/*==================== toggle icon navbar ====================*/
+/* toggle icon navbar */
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -8,7 +8,7 @@ menuIcon.onclick = () => {
 };
 
 
-/*==================== scroll sections active link ====================*/
+/* scroll sections active link */
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
@@ -26,7 +26,8 @@ window.onscroll = () => {
             });
         };
     });
-    /*==================== sticky navbar ====================*/
+
+    /* sticky navbar */
     let header = document.querySelector('header');
 
     header.classList.toggle('sticky', window.scrollY > 100);
@@ -36,8 +37,7 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
-
-/*==================== scroll reveal ====================*/
+/* scroll reveal */
 ScrollReveal({
     // reset: true,
     distance: '80px',
