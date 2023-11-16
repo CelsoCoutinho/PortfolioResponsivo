@@ -493,10 +493,6 @@ span {
         display: none;
     }
 
-    .navbar.active {
-        display: block;
-    }
-
     .navbar a {
         display: block;
         font-size: 2rem;
@@ -556,6 +552,10 @@ span {
 
     .portfolio-box .portfolio-layer {
         transform: translateY(0);
+    }
+
+    .multiple-text {
+        font-size: 60%;
     }
 }
 
