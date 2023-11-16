@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Celso Coutinho</title>
 
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -26,7 +27,7 @@
                 <li><a href="#services">Serviços</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#about">Sobre</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="#contact">Contato</a></li> 
             </ul>
         </nav>
     </header>
@@ -37,7 +38,7 @@
             <P id="nome">CELSO COUTINHO</P>
             <h1><span class="multiple-text"></span></h1>
             <p>Nos últimos 8 anos, como designer, colaborei com grandes empresas e startups para ajudá-las a atingir seu
-            pleno potencial e atrair novos clientes...</p>
+                pleno potencial e atrair novos clientes...</p>
             <div class="social-media">
                 <a href="https://www.facebook.com/profile.php?id=100093704146386" target="_blank"><i
                         class='bx bxl-facebook'></i></a>
@@ -62,18 +63,18 @@
             <div class="services-box">
                 <i class='bx bx-code-alt'></i>
                 <h3>Desenvolvedor Web</h3>
-                <p>Dominio das linguagens <span>HTML5, CSS3, JavaScript...</span></p>
+                <p>Dominio do <span>HTML5, CSS3, JavaScript, typeScript, React Js, VueJs...</span></p>
                 <br><br><br>
             </div>
 
             <div class="services-box">
                 <i class='bx bxs-paint'></i>
                 <h3>Designer Gáfico</h3>
-                <p>Dominio das ferrantas <span> PhotoShop, figma, AdobeXD, ilustrator, Quant UX...</span></p>
+                <p>Dominio do <span> PhotoShop, figma, ilustrator, gerar imagens com IA</span></p>
                 <br><br><br>
             </div>
 
-            <div class="services-box">
+            <!-- <div class="services-box">
                 <i class='bx bx-bar-chart-alt'></i>
                 <h3>Digital Marketing</h3>
                 <p style="text-align: center;">Conhecimento de estratégias de <span>Marketing</span>. Isso inclui desde
@@ -93,7 +94,7 @@
                     </span>
                 </p>
                 <a onclick="leiaMais()" id="btnLeiaMais" class="btn" style="cursor: pointer;">Leia Mais</a>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -202,33 +203,33 @@
     </section>
 
     <!-- contacto section design -->
-    <!--<section class="contact" id="contact">
+    <section class="contact" id="contact">
         <h2 class="heading">Fale <span>Comigo!</span></h2>
 
-        <form action="#">
+        <form action="https://api.staticforms.xyz/submit" method="post">
             <div class="input-box">
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="Endereço de Email">
+                <input type="text" name="name" placeholder="Nome" autocomplete="off" required>
+                <input type="email" name="email" placeholder="Endereço de Email" autocomplete="off" required>
             </div>
-            <div class="input-box">
-                <input type="number" placeholder="telefone">
-                <input type="text" placeholder="Assunto">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+            
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            
             <input type="submit" value="Enviar" class="btn">
+           
+            <input type="hidden" name="accessKey" value="33ab4974-1853-40ff-8473-21324219df37">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
         </form>
-    </section>-->
+    </section>
 
     <!-- footer design -->
     <footer class="footer">
         <div class="footer-text">
-            <p>Em Construção | 2023</p>
+            <p class="m-b-footer"> Celso Coutinho - 2022, todos os direitos reservados.</p>
         </div>
         <div class="footer-iconTop">
             <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
     </footer>
-
 
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
